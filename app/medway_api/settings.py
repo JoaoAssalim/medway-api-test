@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     "student",
     "question",
     "exam",
-    "utils"
+    "utils",
+    "drf_yasg"
 ]
 
 MIDDLEWARE = [
