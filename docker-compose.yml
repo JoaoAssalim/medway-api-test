@@ -22,7 +22,7 @@ services:
 
   db:
     restart: always
-    image: postgres:latest
+    image: postgres:17
     environment:
       - POSTGRES_USER=teste
       - POSTGRES_PASSWORD=teste
